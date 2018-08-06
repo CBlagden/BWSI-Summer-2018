@@ -1,0 +1,5 @@
+<launch>
+       <include file="${find final_challenge)/launch/script.launch" />
+       <node pkg="final_challenge" type="state_machine.py" name="State Machine Online"/>
+       <node pkg="final_challenge" type="starter.py" name="Starter Script Online"/>
+</launch>
